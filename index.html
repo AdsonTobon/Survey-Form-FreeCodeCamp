@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+</head>
+<body>
+    
+    <header>
+            <div>
+                <h1 id="title">Formulario de encuesta Emprendimiento</h1>
+                <p id="description">
+                    Gracias por tomarse el tiempo para ayudarnos construir este Emprendimiento.</p>
+            </div>
+    </header>        
+            
+                <form action="#" id="survey-form">
+                    <div>
+                        <label for="name" id="name-label" class="encabezado">Nombre</label><br>
+                        <input  type="text" placeholder="Ingrese su nombre" id="name" class="entrada" required> 
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email" id="email-label" class="encabezado">Correo</label><br>
+                        <input type="email" placeholder="Ingrese su correo electronico" id="email" class="entrada" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Age" id="number-label" class="encabezado">Edad</label><br>
+                        <input type="number" placeholder="Ingrese su edad" id="number" min="10" max="99" class="entrada">
+                    </div>
+                    <br>
+                    <div>
+                        <p for="opcion" class="encabezado">
+                            ¿Qué ocupación tienes actualmente?
+                        </p><br>
+                        <select name="role" id="dropdown">
+                            <option disabled selected value>seleccione rol actual</option>
+                            <option value="Student">Estudiante</option>
+                            <option value="job">Trabajo tiempo completo</option>
+                            <option value="learner">Aprendiz a tiempo completo</option>
+                            <option value="preferNo">
+                            prefiero no decirlo</option>
+                            <option value="other">Otros</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <p class="encabezado">¿Te gusta el cheesecake?</p><br>
+                        <label>
+                            <input type="radio" name="user-recommend" value="definitely" checked>
+                            Si
+                        </label><br>
+                        <label>
+                            <input type="radio" name="user-recommend" value="maybe">
+                            No
+                        </label><br>
+                        <label>
+                            <input type="radio" name="user-recommend" value="not-sure">
+                            No estoy seguro
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <p for="sabor" class="encabezado">
+                            ¿Cuál es tu sabor favorito?
+                        </p><br>
+                        <label>
+                            <input type="checkbox" name="milky" value="milky" checked>
+                            Milky way
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="yellowFruits" value="yellowFruits">
+                            Frutos Amarillos
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="berries" value="berries">
+                            Frutos Rojos
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="macadamia" value="macadamia">
+                            Macadamia
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="oreo" value="oreo">
+                            Oreo
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <p for="textarea" class="encabezado">
+                            ¿Algún comentario o sugerencia?
+                        </p><br>
+                        <textarea name="sugerencia" id="sugerencias" cols="30" rows="10" placeholder="Ingrese acá cualquier sugerencia en cuanto a sabores o recomendaciones de otro tipo, para nosotros es de gran ayuda su opinión" class="entrada"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="enviarf"  type="submit" id="submit">Enviar</button>
+                    </div>
+
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                </form>
+            
+        
+    
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
