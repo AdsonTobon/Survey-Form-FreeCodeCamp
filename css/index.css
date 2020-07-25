@@ -1,0 +1,60 @@
+body{
+    
+    /* background: linear-gradient(115deg, rgba(253, 235, 208 ), rgba(252, 243, 207)), url(imagenes/fondo.jpg); */
+    background: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1)), url(imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header div p{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+
+
+form{
+    display: block;
+    width: 500px;
+    padding: 5%;
+    margin: auto;
+    background-color: coral;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    border-radius: 4px;
+    
+    
+}
+
+.encabezado{
+    margin: auto;
+}
+
+.entrada{
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+}
+
+.enviarf{
+    width: 100%;
+    padding: 2%;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    background-color: teal;
+    border: none;
+    border-radius: 4px;
+    
+}
